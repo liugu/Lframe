@@ -1,0 +1,15 @@
+{
+	"require":{
+		"noahbuscher/macaw": "dev-master",
+		"illuminate/database":"*",
+		"filp/whoops": "^2.1",
+		"predis/predis":"*"
+	},
+	"autoload": {
+	    "classmap": [
+	    	"app/Models",
+	    	"app/Controllers",
+	    	"services"
+	    ]
+  	}
+}
